@@ -1,4 +1,4 @@
-package com.example.app2;
+package com.anyitrecruitment;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -81,6 +81,7 @@ public class LoginActivity extends AppCompatActivity {
         String userUsername = loginUsername.getText().toString().trim();
         String userPassword = loginPassword.getText().toString().trim();
 
+        //https://art-on-the-move-1d505-default-rtdb.europe-west1.firebasedatabase.app/
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users");
         Query checkUserDatabase = reference.orderByChild("username").equalTo(userUsername);
 

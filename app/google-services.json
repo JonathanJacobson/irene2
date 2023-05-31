@@ -1,26 +1,37 @@
 {
   "project_info": {
-    "project_number": "682267224898",
-    "project_id": "app2-da718",
-    "storage_bucket": "app2-da718.appspot.com"
+    "project_number": "586833734162",
+    "firebase_url": "https://art-on-the-move-1d505-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "art-on-the-move-1d505",
+    "storage_bucket": "art-on-the-move-1d505.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:682267224898:android:bfe68a3e233b0efd0e76db",
+        "mobilesdk_app_id": "1:586833734162:android:df6d2886e817cd6dfd86cb",
         "android_client_info": {
-          "package_name": "com.example.app2"
+          "package_name": "com.anyitrecruitment"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "586833734162-0str891jaugok5dr8lifq6dumghmvps8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyATd-5m031w3TcNWuv7K1HZn2oJ6NUgRy4"
+          "current_key": "AIzaSyCaD209TnqkPqx7fDgykLICVGaIQI4_0w4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586833734162-0str891jaugok5dr8lifq6dumghmvps8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
